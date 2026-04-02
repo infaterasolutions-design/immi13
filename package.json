@@ -1,0 +1,21 @@
+{
+  "name": "digital-diplomat",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "tailwindcss build -i ./input.css -o ./styles.css --minify",
+    "watch:css": "tailwindcss build -i ./input.css -o ./styles.css --watch",
+    "dev": "next dev",
+    "build": "tailwindcss build -i ./input.css -o ./styles.css --minify && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.4.17"
+  }
+}
